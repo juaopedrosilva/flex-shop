@@ -1,0 +1,39 @@
+$width_logo: 200px;
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #FFF;
+
+    & img {
+        width: $width_logo;
+    }
+
+    & nav {
+        display: flex;
+    }
+
+    & li {
+        margin: 0 15px; 
+    }
+
+    & li:first-child { 
+        margin-left: 0;
+    } 
+
+    & li a {
+        color: #191c03;
+    }
+    
+    @media(max-width: 700px) {
+        flex-direction: column; 
+        & img { 
+            margin-bottom: 15px; 
+        }
+    }
+}

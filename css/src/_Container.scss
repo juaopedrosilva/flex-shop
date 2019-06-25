@@ -1,0 +1,16 @@
+$width_container_desktop: 85%;
+$width_container_mobile: 85%;
+
+div.container{
+    width: $width_container_desktop;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2.617924em;
+
+    @media(max-width: 700px){
+        & {
+            width: $width_container_mobile;
+        }
+    }
+}
+
