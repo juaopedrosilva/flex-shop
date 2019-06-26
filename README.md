@@ -1,0 +1,4 @@
+# flex-shop
+Flex-Shop
+
+![alt text](https://raw.githubusercontent.com/juaopedrosilva/flex-shop/master/screen.jpg)
