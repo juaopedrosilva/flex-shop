@@ -80,7 +80,7 @@ div.container {
 }
 @media (max-width: 700px) {
   div.container {
-    width: 95%;
+    width: 85%;
   }
 }
 
@@ -154,8 +154,11 @@ div.container {
   margin: 0 auto 1.618em;
 }
 @media (max-width: 700px) {
-  .store {
+  .store ul.product-itens {
     flex-direction: column;
+  }
+  .store ul.product-itens li a {
+    margin-bottom: 15px;
   }
 }
 

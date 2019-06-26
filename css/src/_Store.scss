@@ -81,9 +81,12 @@ $sizes:
         } 
     }
 
-    @media(max-width: 700px){
-        & {
+    @media(max-width: 700px) {
+        & ul.product-itens {
             flex-direction: column; 
+        }
+        & ul.product-itens li a {
+            margin-bottom: 15px
         }
     }
 }
