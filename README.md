@@ -1,4 +1,3 @@
-# flex-shop
-Flex-Shop
+# Flex Shop
 
 ![alt text](https://raw.githubusercontent.com/juaopedrosilva/flex-shop/master/screen.jpg)
