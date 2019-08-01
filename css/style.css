@@ -87,6 +87,7 @@ div.container {
 .store ul.product-itens {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin-bottom: 4.3em;
 }
 
@@ -142,14 +143,14 @@ div.container {
   border-radius: 3px;
 }
 .store ul.product-itens li img.category {
-  width: 300px;
-  height: 300px;
+  max-width: 300px;
+  max-height: 300px;
   border-radius: 3px;
   margin: 0 auto 1.618em;
 }
 .store ul.product-itens li img.product {
-  width: 213px;
-  height: 213px;
+  max-width: 213px;
+  max-height: 213px;
   border-radius: 3px;
   margin: 0 auto 1.618em;
 }
